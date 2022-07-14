@@ -1,8 +1,6 @@
 **Assignments from Week 0 of CS50's Introduction to Programming with Python at Harvard**
 
-Week 0 was spent learning about **Functions** and **Variables**
-
-Below are descriptions of each of the programs in this folder:
+Week 0 was spent learning about **Functions** and **Variables**. Below are descriptions of each of the programs in this folder:
 1. **indoor.py**: Prompts the user for input and then outputs that same input in lowercase. Punctuation and whitespace are outputted unchanged. 
 2. **playback.py**: Prompts the user for input and then outputs that same input, replacing each space with ... (i.e., three periods).
 3. **faces.py**: Prompts the user for input, accepts a str as input, and returns that same input with any :) converted to 🙂 and any :( converted to 🙁. All other text are returned unchanged.

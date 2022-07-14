@@ -1,5 +1,6 @@
 **Assignments from Week 0 of CS50's Introduction to Programming with Python at Harvard**
-Week 1 was spent learning about **Functions** and **Variables**
+
+Week 0 was spent learning about **Functions** and **Variables**
 
 Below are descriptions of each of the programs in this folder:
 1. **indoor.py**: Prompts the user for input and then outputs that same input in lowercase. Punctuation and whitespace are outputted unchanged. 

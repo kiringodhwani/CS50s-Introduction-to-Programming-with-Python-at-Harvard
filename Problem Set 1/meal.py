@@ -12,7 +12,7 @@ def main():
     else:
         t = convert(t)
 
-	# If statement
+    # If statement to determine what meal it is
     if 7 <= t <= 8:
         print('breakfast time')
     elif 12 <= t <= 13:

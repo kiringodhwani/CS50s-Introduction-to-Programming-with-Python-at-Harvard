@@ -5,6 +5,7 @@ Week 2 was spent learning about **Loops (for and while), Lists, and Dictionaries
 1. **plates.py**: Prompts the user for a vanity plate and then outputs: 
 - Valid if the plate meets all of the requirements of a vanity plate
 - Invalid if it does not meet all of the requirements.
+
 **Requirements of a vanity plate**
 - All vanity plates must start with at least two letters.”
 - “… vanity plates may contain a maximum of 6 characters (letters or numbers) and a minimum of 2 characters.”

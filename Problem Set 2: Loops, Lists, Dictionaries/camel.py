@@ -8,8 +8,8 @@ build = camel_case[0]
 # Begin iterating through the remaining characters in the input string skipping the first character
 for c in camel_case[1:]:
 
-# If the current character is an uppercase letter, then append an underscore to the building string 
-# followed by the current character in its lowercase form
+  # If the current character is an uppercase letter, then append an underscore to the building string 
+  # followed by the current character in its lowercase form
   if c.isupper() == True:
     build = build + '_' + c.lower()
 

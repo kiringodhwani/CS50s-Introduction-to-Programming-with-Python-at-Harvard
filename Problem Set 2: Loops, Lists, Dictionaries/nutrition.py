@@ -1,6 +1,6 @@
 # Define fruits dictionary containing the 20 fruits and their corresponding number of calories per portion
 fruits = {
-	  'apple': 130,
+    'apple': 130,
     'avocado': 50,
     'banana': 110,
     'cantaloupe': 50,

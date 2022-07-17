@@ -61,7 +61,7 @@ while True:
         if d < 1 or d > 31:
             continue
 
-        # All dates are 4 digits
+        # All years are 4 digits
         if yr < 1000 or yr > 9999:
             continue
 

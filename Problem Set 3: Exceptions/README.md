@@ -6,7 +6,7 @@ Week 3 was spent learning about **Loops (for and while), Lists, and Dictionaries
     
 [   "January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"  ]  
   
-    Then outputs the same date in YYYY-MM-DD format. If the user’s input is not a valid date in either format (9/8/1636 or September 8, 1636), prompts the     user again. Assumes that every month has no more than 31 days (i.e. does not validate whether a month has 28, 29, 30, or 31 days). Re-prompts the user     when they input a date with a non-4-digit year, a day not between 1 and 31, and a month not between 1 and 12.  
+Then outputs the same date in YYYY-MM-DD format. If the user’s input is not a valid date in either format (9/8/1636 or September 8, 1636), prompts the     user again. Assumes that every month has no more than 31 days (i.e. does not validate whether a month has 28, 29, 30, or 31 days). Re-prompts the user     when they input a date with a non-4-digit year, a day not between 1 and 31, and a month not between 1 and 12.  
   
 2. **fuel.py**: Prompts the user for a fraction, formatted as X/Y, wherein each of X and Y is an integer, and then outputs, as a percentage rounded to the nearest integer, how much fuel is in the tank. If, though, 1% or less remains, outputs E instead to indicate that the tank is essentially empty. And if 99% or more remains, outputs F instead to indicate that the tank is essentially full. If X or Y is not an integer, X is greater than Y, or Y is 0, instead prompts the user again. Catches ValueErrors and ZeroDivisionErrors.  
   

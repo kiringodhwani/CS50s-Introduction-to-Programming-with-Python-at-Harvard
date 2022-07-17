@@ -36,7 +36,7 @@ while True:
         to_print = '$' + to_print
         print(to_print)
 
-    # Detect Value Errors
+    # Catch Value Errors
     except ValueError:
         pass
 

@@ -2,7 +2,7 @@
 
 Week 3 was spent learning about **Loops (for and while), Lists, and Dictionaries**. Below are descriptions of each of the programs in this folder:
 
-1. **outdated.py**: Prompts the user for a date, anno Domini, in month-day-year order, formatted like 9/8/1636 or September 8, 1636, wherein the month in the latter might be any of the values in the list below:
+1. **outdated.py**: Prompts the user for a date, anno Domini, in month-day-year order, formatted like 9/8/1636 or September 8, 1636, wherein the month in the latter might be any of the values in the list below:  
 [  
     "January",  
     "February",  

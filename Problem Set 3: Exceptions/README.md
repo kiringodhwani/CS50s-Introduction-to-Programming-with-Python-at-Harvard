@@ -13,6 +13,7 @@ Then outputs the same date in YYYY-MM-DD format. If the user’s input is not a 
 3. **taqueria.py**: Enables a user to place orders from the below dict/menu of entrees:
   
 {   "Baja Taco": 4.00,  "Burrito": 7.50,  "Bowl": 8.50,  "Nachos": 11.00,  "Quesadilla": 8.50,  "Super Burrito": 8.50,  "Super Quesadilla": 9.50, "Taco": 3.00,  "Tortilla Salad": 8.00  }  
+  
 Prompts the user for items (entrees), one per line, until the user inputs control-d. After each inputted item, displays the total cost of all items inputted thus far, prefixed with a dollar sign ($) and formatted to two decimal places. Treats the user’s input case insensitively. Ignores any input that isn’t an item. Assumes that every item on the menu will be titlecased. 
   
 4. **grocery.py**: Prompts the user for items (meant to be items from a grocery store), one per line, until the user inputs control-d. Then outputs the user’s grocery list in all uppercase, sorted alphabetically by item, prefixing each line with the number of times the user inputted that item. Does not pluralize items. Treats the user’s input case-insensitively.

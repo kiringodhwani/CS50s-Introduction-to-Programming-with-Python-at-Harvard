@@ -27,7 +27,7 @@ while True:
         guess = int(input('Guess: '))
 
         # Make sure user input is positive
-        if guess < 0:
+        if guess < 1:
             continue
 
         # Guess is too small

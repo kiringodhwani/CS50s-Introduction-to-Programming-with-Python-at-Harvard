@@ -14,7 +14,7 @@ while True:
 		print()
 		break
 
-# Turn the list of names into a string list (i.e. ['Fred', 'Liesl', 'James'] --> 'Fred, Liesl, and James')
+# Turn the list of names into a list in english (i.e. ['Fred', 'Liesl', 'James'] --> 'Fred, Liesl, and James')
 s = p.join(names)
 
 # Format and print the result with 'Adieu, adieu, to '

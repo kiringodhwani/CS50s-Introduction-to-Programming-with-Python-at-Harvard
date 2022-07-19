@@ -41,5 +41,6 @@ else:
 
     # Set the font and output the text in said font
     figlet.setFont(font = f)
+    print('Output: ')
     print(figlet.renderText(s))
 

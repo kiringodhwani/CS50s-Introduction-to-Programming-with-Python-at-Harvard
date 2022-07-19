@@ -34,11 +34,11 @@ while True:
         if guess < rand:
             print('Too small!')
 
-	    # Guess is too large
+	# Guess is too large
         elif guess > rand:
             print('Too large!')
 
-	    # Guess is correct
+	# Guess is correct
         else:
             print('Just right!')
             break

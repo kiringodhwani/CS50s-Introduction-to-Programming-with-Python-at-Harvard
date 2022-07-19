@@ -18,7 +18,7 @@ if len(sys.argv) == 1:
     f = random.choice(figlet.getFonts())
 
     # Set the font and output the text in said font
-    figlet.setFont(font=f)
+    figlet.setFont(font = f)
     print('Output: ')
     print(figlet.renderText(s))
 

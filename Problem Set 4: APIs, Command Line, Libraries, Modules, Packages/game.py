@@ -7,14 +7,14 @@ while True:
 
         # Make sure that the input is a positive integer; otherwise, re-prompt
         if n < 1:
-			      continue
+	    continue
 
     # Catch ValueErrors
     except ValueError:
         pass
  
     else:
-		    break
+        break
 
 # Randomly generate an int in the range [1,n]
 rand = random.randint(1,n)

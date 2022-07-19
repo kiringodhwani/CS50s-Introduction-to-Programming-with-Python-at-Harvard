@@ -1,6 +1,7 @@
 import random
 
 # Take in input from the user until they input a positive integer
+# The value is to serve as the upper bound for a random number generator range
 while True:
     try:
         n = int(input('Level: '))
@@ -16,7 +17,7 @@ while True:
     else:
         break
 
-# Randomly generate an int in the range [1,n]
+# Randomly generate an int in the range [1,n], where n is the value the user inputted
 rand = random.randint(1,n)
 
 # While loop that ends when the user correctly guesses the number

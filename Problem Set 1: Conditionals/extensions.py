@@ -4,7 +4,7 @@ filename = input('Enter the name of a file: ')
 # Make lowercase so we can treat file extensions case insensitively
 filename = filename.lower().strip()
 
-# if statement
+# if statement to determine media types based on certain suffixes
 if filename.endswith('.gif') == True:
 	print('image/gif')
 elif filename.endswith(('.jpg', '.jpeg')) == True:

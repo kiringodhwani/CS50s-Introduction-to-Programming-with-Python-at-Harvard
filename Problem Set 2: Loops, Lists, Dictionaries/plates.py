@@ -31,7 +31,7 @@ def is_valid(s):
             if rest_digit(i+1, s) == True:
                 return True
             else:
-	            return False
+	    	return False
 
     # Plate is all letters
     return True

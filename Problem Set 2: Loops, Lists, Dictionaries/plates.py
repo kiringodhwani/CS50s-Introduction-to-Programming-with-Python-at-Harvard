@@ -1,10 +1,13 @@
 def main():
     plate = input('Plate: ')
+
+    # Use the is-valid fxn to determine if the user input is a valid vanity plate
     if is_valid(plate):
         print('Valid')
     else:
         print('Invalid')
 
+# Returns True if s, a string passed in as a parameter, meets all of the vanity plate requirements and False if it does not. 
 def is_valid(s):
     # Make sure that the plate length is at least 2 characters and at most 6
     if len(s) < 2 or len(s) > 6:

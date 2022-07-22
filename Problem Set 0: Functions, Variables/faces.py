@@ -5,7 +5,7 @@ def main():
     s = convert(s)
     print(s)
 
-# Convert function
+# Converts :) and :( to their emoji equivalents
 def convert(c):
     # Use replace() function to replace ':)' and ':('
     c = c.replace(':)','🙂')

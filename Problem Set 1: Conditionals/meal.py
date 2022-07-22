@@ -1,14 +1,15 @@
+# Main function
 def main():
 	# Read in input
     t = input('Enter a time in 24-hour time format: ')
 
     t.lower().strip()
 
-    # If the input is in 12-hour time, call the TwelveHour fxn to convert
-    # the value to a float in 24 hour time
+    # If the input is in 12-hour time format, call the TwelveHour fxn to convert the value to a float representing the
+    # corresponding number of hours in 24-hour time.
     if t.endswith(('a.m.','p.m.')):
         t = TwelveHour(t)
-    # If the input is already in 24-hour time, simply convert to a float
+    # If the input is already in 24-hour time, simply convert to a float representing the corresponding number of hours.
     else:
         t = convert(t)
 
@@ -20,10 +21,10 @@ def main():
     elif 18 <= t <= 19:
         print('dinner time')
     else:
-		# Do nothing
+	# Do nothing
         pass
 
-# Fxn to convert from 12-hour time to 24-hour time
+# Converts time, a string in 12-hour format, to the corresponding number of hours as a float (in 24-hour time).
 def TwelveHour(time):
     time, ampm = time.split(' ', 1)
 
@@ -39,9 +40,9 @@ def TwelveHour(time):
 
     return time
 
-# Convert a value in 24-hour time format to the corresponding number of  hours as a float
+# Converts time, a str in 24-hour format, to the corresponding number of hours as a float.
 def convert(time):
-	# Replace the colon in the time format to a period
+    # Replace the colon in the time format to a period
     time = time.replace(':', '.')
 
     # Convert the string to a float

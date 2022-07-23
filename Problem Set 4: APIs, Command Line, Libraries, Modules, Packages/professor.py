@@ -35,7 +35,8 @@ def main():
                 j += 1
 
                 # If j = 3, then the user has no more chances left. So, we print the correct answer to show their mistake.
-                print(str(x) + ' + ' + str(y) + ' = ' + str(x+y))
+                if j == 3:
+                    print(str(x) + ' + ' + str(y) + ' = ' + str(x+y))
 
 
     # Print the user's final score after they answer all 10 equations

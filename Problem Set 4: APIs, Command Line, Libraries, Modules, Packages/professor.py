@@ -20,15 +20,15 @@ def main():
         # Define a while loop with a maximum of three iterations
         j = 0
         while j < 3:
-			      # Display equation to user and take in their integer answer
+	    # Display equation to user and take in their integer answer
             answer = int(input(eq))
 
-			      # If the user's answer to the equation is correct, increment their score by 1 and break the while loop
+	    # If the user's answer to the equation is correct, increment their score by 1 and break the while loop
             # because the equation does not need to be re-displayed
             if answer == x+y:
                 score += 1
                 break
-			      # If the user's answer is wrong, tell them, then increment the iteration count by 1. This is to ensure
+	    # If the user's answer is wrong, tell them, then increment the iteration count by 1. This is to ensure
             # that the while loop has no more than 3 iterations.
             else:
                 print('EEE')

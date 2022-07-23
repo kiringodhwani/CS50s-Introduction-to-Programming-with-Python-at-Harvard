@@ -34,7 +34,7 @@ def main():
                 print('EEE')
                 j += 1
 
-                # If j = 3, then the user has guessed incorrectly 3 times. They then have no more guesses left so we output the correct answer.
+                # If j = 3, then the user has answered incorrectly 3 times. They then have no more chances left so we output the correct answer.
                 if j == 3:
                     print(str(x) + ' + ' + str(y) + ' = ' + str(x+y))
 

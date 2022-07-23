@@ -64,7 +64,7 @@ def get_level():
 # Returns a randomly generated non-negative integer with "level" digits
 def generate_integer(level):
 
-    #raises a ValueError if level is not 1, 2, or 3
+    # Raises a ValueError if level is not 1, 2, or 3
     if level not in [1, 2, 3]:
         raise ValueError
 

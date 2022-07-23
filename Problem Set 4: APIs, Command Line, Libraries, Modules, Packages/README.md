@@ -12,6 +12,22 @@ Week 4 was spent learning about **Libraries, Command Line Arguments, APIs, and M
   
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
   
+2. **bitcoin.py**: 
+   - Expects the user to specify as a command-line argument the number of Bitcoins, 'n', that they would like to buy.
+   - Queries the API for the CoinDesk Bitcoin Price Index at https://api.coindesk.com/v1/bpi/currentprice.json, which returns a JSON object, among whose nested keys is the current price of Bitcoin as a float.
+   - Outputs the current cost of 'n' Bitcoins in USD to four decimal places, using commas as thousands separator.
+  
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+  
+3. **figlet.py**: Uses FIGlet to allow users to print out messages of their choice in FIGlet fonts:
+   - Expects zero or two command-line arguments:
+      - Zero if the user would like to output text in a random font.
+      - Two if the user would like to output text in a specific font, in which case the first of the two should be -f or --font, and the second of the two should be the name of the FIGlet font.
+   - Prompts the user for a str of text.
+   - Outputs that text in the desired FIGlet font.
+  
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+
 
 6. **emojize.py**: Prompts the user for a str in English and then outputs the “emojized” version of that str, converting any codes (or aliases) therein to their corresponding emoji. Uses the built-in emoji module.  
   

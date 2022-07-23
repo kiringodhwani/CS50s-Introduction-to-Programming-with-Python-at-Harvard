@@ -1,6 +1,6 @@
 # Main function
 def main():
-	# Read in input
+    # Read in input
     t = input('Enter a time in 24-hour time format: ')
 
     t.lower().strip()

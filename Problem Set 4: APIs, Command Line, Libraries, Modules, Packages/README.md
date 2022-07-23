@@ -29,6 +29,7 @@ Week 4 was spent learning about **Libraries, Command Line Arguments, APIs, and M
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
   
 4. **adieu.py**: Prompts the user for names, one per line, until the user inputs control-d. Assumes that the user will input at least one name. Then bids adieu to those names, separating two names with one 'and', three names with two commas and one 'and', and n names with n-1 commas and one 'and', as in the below:  
+  
 Adieu, adieu, to Liesl  
 Adieu, adieu, to Liesl and Friedrich  
 Adieu, adieu, to Liesl, Friedrich, and Louisa  
@@ -41,6 +42,15 @@ Uses the inflect module.
   
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
   
+5. **game.py**:
+   - Prompts the user for a level, n. If a positive integer is not inputted, then the user is re-prompted.
+   - Randomly generates an integer between 1 and n, inclusive, using the random module.
+   - Prompts the user to guess said integer. If the guess is not a positive integer, the program re-prompts the user.
+      - If the guess is smaller than the mystery integer, the program outputs 'Too small!' and prompts the user again.
+      - If the guess is larger than the mystery integer, the program outputs 'Too large!' and prompts the user again.
+      - If the guess is the same as the mystery integer, the program outputs 'Just right!' and exits.
+  
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
 
 6. **emojize.py**: Prompts the user for a str in English and then outputs the “emojized” version of that str, converting any codes (or aliases) therein to their corresponding emoji. Uses the built-in emoji module.  
   

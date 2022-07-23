@@ -21,13 +21,26 @@ Week 4 was spent learning about **Libraries, Command Line Arguments, APIs, and M
   
 3. **figlet.py**: Uses FIGlet to allow users to print out messages of their choice in FIGlet fonts:
    - Expects zero or two command-line arguments:
-      - Zero if the user would like to output text in a random font.
-      - Two if the user would like to output text in a specific font, in which case the first of the two should be -f or --font, and the second of the two should be the name of the FIGlet font.
+      - Zero if the user would like to output text in a random FIGlet font.
+      - Two if the user would like to output text in a specific FIGlet font, in which case the first of the two command line arguments should be -f or --font, and the second of the two should be the name of the FIGlet font.
    - Prompts the user for a str of text.
    - Outputs that text in the desired FIGlet font.
   
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
-
+  
+4. **adieu.py**: Prompts the user for names, one per line, until the user inputs control-d. Assumes that the user will input at least one name. Then bids adieu to those names, separating two names with one 'and', three names with two commas and one 'and', and n names with n-1 commas and one 'and', as in the below:  
+Adieu, adieu, to Liesl  
+Adieu, adieu, to Liesl and Friedrich  
+Adieu, adieu, to Liesl, Friedrich, and Louisa  
+Adieu, adieu, to Liesl, Friedrich, Louisa, and Kurt  
+Adieu, adieu, to Liesl, Friedrich, Louisa, Kurt, and Brigitta  
+Adieu, adieu, to Liesl, Friedrich, Louisa, Kurt, Brigitta, and Marta  
+Adieu, adieu, to Liesl, Friedrich, Louisa, Kurt, Brigitta, Marta, and Gretl  
+  
+Uses the inflect module.
+  
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+  
 
 6. **emojize.py**: Prompts the user for a str in English and then outputs the “emojized” version of that str, converting any codes (or aliases) therein to their corresponding emoji. Uses the built-in emoji module.  
   

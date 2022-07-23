@@ -10,7 +10,7 @@ def main():
 
     # for loop with 10 iterations
     for _ in range(0, 10):
-        # Generate a random x and a random y using the generate_integer fxn
+        # Generate a random integer x and a random integer y (both with "lvl" digits) using the generate_integer fxn.
         x = generate_integer(lvl)
         y = generate_integer(lvl)
 

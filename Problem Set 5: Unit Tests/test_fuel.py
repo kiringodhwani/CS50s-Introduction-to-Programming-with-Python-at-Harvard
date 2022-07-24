@@ -20,7 +20,7 @@ def test_num_greater_denom():
         convert('2/1')
 
 # Tests to make sure that convert() throws a ValueError when the user-inputted numerator / denom. aren't integers
-def test_value_error():
+def test_non_int():
     with pytest.raises(ValueError):
         convert('three/four')
     with pytest.raises(ValueError):

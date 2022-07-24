@@ -5,7 +5,7 @@ def main():
     # Call convert to convert the user-inputted fraction to a % rounded to the nearest int
     n = convert(s)
 
-	# Call gauge to determine the amount of fuel remaining based on the original fraction
+    # Call gauge to determine the amount of fuel remaining based on the original fraction
     fuel = gauge(n)
     print(fuel)
 
@@ -27,10 +27,10 @@ def convert(fraction):
     if x > y:
         raise ValueError
 
-	# Evaluate the fraction
+    # Evaluate the fraction
     z = x / y
 
-	# Multiple by 100 to convert to a percentage, then round to the nearest whole number and convert to an integer
+    # Multiple by 100 to convert to a percentage, then round to the nearest whole number and convert to an integer
     z = round(z * 100, 0)
     z = int(z)
 

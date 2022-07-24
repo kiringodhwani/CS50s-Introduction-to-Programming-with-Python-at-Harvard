@@ -4,7 +4,7 @@ Week 5 was spent learning about **Unit Testing**. Below are descriptions of each
   
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
   
-**fuel.py**: Prompts the user for a fraction, formatted as X/Y, wherein each of X and Y is an integer, and then outputs, as a percentage rounded to the nearest integer, how much fuel is in the tank. If, though, 1% or less remains, outputs E instead to indicate that the tank is essentially empty. And if 99% or more remains, outputs F instead to indicate that the tank is essentially full. If X or Y is not an integer, X is greater than Y, or Y is 0, instead prompts the user again. Contains two important functions, **convert()** and **gauge()**:
+**fuel.py**: Prompts the user for a fraction, formatted as X/Y, wherein each of X and Y is an integer, and then outputs, as a percentage rounded to the nearest integer, how much fuel is in the tank. If, though, 1% or less remains, outputs E instead to indicate that the tank is essentially empty. And if 99% or more remains, outputs F instead to indicate that the tank is essentially full. If X or Y is not an integer, X is greater than Y, or Y is 0, instead prompts the user again. Contains **convert()** and **gauge()**:
   
 - **convert()** expects a str in X/Y format as input, wherein each of X and Y is an integer, and returns that fraction as a percentage rounded to the nearest int between 0 and 100, inclusive. If X and/or Y is not an integer, or if X is greater than Y, then convert raises a ValueError. If Y is 0, then convert raises a ZeroDivisionError.
 - **gauge()** expects an int and returns a str that is:

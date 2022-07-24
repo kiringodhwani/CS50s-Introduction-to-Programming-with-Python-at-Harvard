@@ -11,7 +11,7 @@ def test_zero_division():
         convert('100/0')
 
 # Tests to make sure that convert() throws a ValueError when the numerator of the fraction is greater than the denominator
-def test_value_error():
+def test_num_greater_denom():
     with pytest.raises(ValueError):
         convert('11/10')
     with pytest.raises(ValueError):

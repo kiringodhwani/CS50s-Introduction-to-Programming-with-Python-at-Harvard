@@ -1,6 +1,6 @@
 from bank import value
 
-# Testing that the program outputs '$0' if the greeting starts with 'hello'
+# Testing that the program outputs '$0' if the greeting starts with 'hello' / 'Hello'
 def test_zero():
     # General case(s) with capital first letter
     assert value('Hello') == 0
@@ -19,7 +19,7 @@ def test_zero():
     assert value('Helooooooo') == 20
     assert value('helooooooooo') == 20
 
-# Testing that the program outputs '$20' if the greeting starts with an 'h' (but not 'hello')
+# Testing that the program outputs '$20' if the greeting starts with an 'h' / 'H' (but not 'hello' / 'Hello')
 def test_20_dollars():
     # General case(s) with capital first letter
     assert value('Hi') == 20
@@ -33,7 +33,7 @@ def test_20_dollars():
     assert value('hdkljaskldjaksdja') == 20
     assert value('hows it going?') == 20
 
-# Testing that the program outputs '$100' if the greeting does not start with an 'h'
+# Testing that the program outputs '$100' if the greeting does not start with an 'h' / 'H'
 def test_100_dollars():
     # General case(s) with capital first letter
     assert value('Whats happening?') == 100

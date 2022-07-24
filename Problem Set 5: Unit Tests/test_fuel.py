@@ -47,7 +47,7 @@ def test_bounds():
     assert convert('999/1000') == 100
     assert convert('1/2000') == 0
 
-# Testing convert() on general cases (i.e. valid fractions (X/Y) where X > Y and Y != 0)
+# Testing convert() on general cases (i.e. valid fractions (X/Y) where X > Y, Y != 0, and X and Y are integers)
 def test_convert_general():
     # Rounding required
     assert convert('2/3') == 67

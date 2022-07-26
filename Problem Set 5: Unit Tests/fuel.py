@@ -14,6 +14,10 @@ def convert(fraction):
     # Split the fraction at the slash
     vals = fraction.split('/', 1)
 
+    # Make sure that the numerator and denominator are ints
+    if not vals[0].isdigit() or not vals[1].isdigit():
+        raise ValueError
+
     # Convert the numerator and denominator from strings to ints
     x = int(vals[0])
     y = int(vals[1])

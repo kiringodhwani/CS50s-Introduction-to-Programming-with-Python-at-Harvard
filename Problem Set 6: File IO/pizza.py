@@ -26,10 +26,10 @@ try:
     with open(sys.argv[1]) as file:
         reader = csv.reader(file)
 
-		    # The CSV file has three columns: a type ('cheese') and then its corresponding prices in small and large
+	# The CSV file has three columns: a type ('cheese') and then its corresponding prices in small and large
         for type, small, large in reader:
 
-			      # Add the values from the CSV to a list, then append the new list to the menu list
+            # Add the values from the CSV to a list, then append the new list to the menu list
             menu.append([type, small, large])
 
 # Catch FileNotFoundErrors raised by 'open' and exit with an error message

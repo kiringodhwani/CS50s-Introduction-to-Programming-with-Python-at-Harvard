@@ -21,7 +21,7 @@ if extension != '.py':
 
 try:
     with open(sys.argv[1]) as file:
-	      # For each line in the file...
+	# For each line in the file...
         for line in file:
             # ...strip the leading whitespace…
             line = line.lstrip()

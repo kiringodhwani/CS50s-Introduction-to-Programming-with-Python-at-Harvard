@@ -6,7 +6,7 @@ Week 6 was spent learning about **File IO**. Below are descriptions of each of t
   
 **scourgify.py**: Expects the user to provide two command-line arguments other than the filename ---   
   
-**1.** The name of an existing CSV file to read as input, whose columns are assumed to be, in order, name and house. Like the following:
+**1.** The name of an existing CSV file to read as input, whose columns are assumed to be 'name' and 'house', in this order. Like the following:
   <pre>
    name,house  
    "Abbott, Hannah",Hufflepuff  
@@ -17,7 +17,7 @@ Week 6 was spent learning about **File IO**. Below are descriptions of each of t
    "Bulstrode, Millicent",Slytherin  
    "Chang, Cho",Ravenclaw  
   </pre>
-**2.** The name of a new CSV to write as output, whose columns should be, in order, first, last, and house. Like the following:
+**2.** The name of a new CSV to write as output, whose columns should be 'first', 'last', and 'house', in this order. Like the following:
   <pre>
    first,last,house  
    Hannah,Abbott,Hufflepuff  
@@ -39,7 +39,7 @@ NOTE: If the user does not provide exactly two command-line arguments, or if the
 **1.** In sys.argv[1], the name (or path) of a JPEG or PNG to read (i.e., open) as input  
 **2.** In sys.argv[2], the name (or path) of a JPEG or PNG to write (i.e., save) as output  
   
-Then, overlays shirt.png (an image of a shirt with a transparent background) on the input after resizing and cropping the input to be the same size. Lastly, saves the result to the output.  
+Then, overlays shirt.png (an image of a shirt with a transparent background) on the input after resizing and cropping the input to be the same size. Lastly, saves the result to the output file.  
   
 NOTE: The program exits via sys.exit:  
 **1.** If the user does not specify exactly two command-line arguments.  

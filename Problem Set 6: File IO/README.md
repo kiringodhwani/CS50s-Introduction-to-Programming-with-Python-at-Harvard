@@ -6,7 +6,7 @@ Week 6 was spent learning about **File I/O**. Below are descriptions of each of 
   
 **scourgify.py**: Expects the user to provide two command-line arguments other than the filename ---   
   
-**1.** The name of an existing CSV file to read as input, whose columns are assumed to be, in this order, 'name' and 'house'. Here is an example:
+**1.** The name of an existing CSV file to read as input, whose columns are assumed to be, in order, 'name' and 'house'. Here is an example:
   <pre>
    name,house  
    "Abbott, Hannah",Hufflepuff  
@@ -17,7 +17,7 @@ Week 6 was spent learning about **File I/O**. Below are descriptions of each of 
    "Bulstrode, Millicent",Slytherin  
    "Chang, Cho",Ravenclaw  
   </pre>
-**2.** The name of a new CSV to write as output, whose columns should be, in this order, 'first', 'last', and 'house'. Here is an example:
+**2.** The name of a new CSV to write as output, whose columns should be, in order, 'first', 'last', and 'house'. Here is an example:
   <pre>
    first,last,house  
    Hannah,Abbott,Hufflepuff  

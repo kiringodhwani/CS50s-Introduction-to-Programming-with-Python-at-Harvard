@@ -50,14 +50,14 @@ NOTE: The program exits via sys.exit:
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
   
 **pizza.py**: Expects exactly one command-line argument other than the filename --- the name (or path) of a CSV file in Pinocchio's format. Here is an example of a pizza menu in said format:
-  
+  <pre>
    Sicilian Pizza,Small,Large  
    Cheese,$25.50,$39.95  
    1 item,$27.50,$41.95  
    2 items,$29.50,$43.95  
    3 items,$31.50,$45.95  
    Special,$33.50,$47.95  
-  
+  </pre>
 Then, outputs the data from the input CSV as a table formatted as ASCII art using the 'tabulate' package. Below is the resulting output of the above pizza menu:
   <pre>
    +------------------+---------+---------+  

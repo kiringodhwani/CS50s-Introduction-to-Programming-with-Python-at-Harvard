@@ -39,7 +39,7 @@ NOTE: If the user does not provide exactly two command-line arguments, or if the
 **1.** In sys.argv[1], the name (or path) of a JPEG or PNG to read (i.e., open) as input  
 **2.** In sys.argv[2], the name (or path) of a JPEG or PNG to write (i.e., save) as output  
   
-Then, overlays shirt.png (an image of a shirt with a transparent background) on the input after resizing and cropping the input to be the same size. Lastly, saves the result to the output file.  
+Then, overlays shirt.png (an image of a t-shirt with a transparent background) on the input after resizing and cropping the input to be the same size. Lastly, saves the result to the output file.  
   
 NOTE: The program exits via sys.exit:  
 **1.** If the user does not specify exactly two command-line arguments.  

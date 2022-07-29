@@ -17,7 +17,7 @@ Week 6 was spent learning about **File I/O**. Below are descriptions of each of 
    "Bulstrode, Millicent",Slytherin  
    "Chang, Cho",Ravenclaw  
   </pre>
-**2.** The name of a new CSV to write as output, whose columns should be, in order, 'first', 'last', and 'house'. Here is an example:
+**2.** The name of a new CSV file to write as output, whose columns should be, in order, 'first', 'last', and 'house'. Here is an example:
   <pre>
    first,last,house  
    Hannah,Abbott,Hufflepuff  

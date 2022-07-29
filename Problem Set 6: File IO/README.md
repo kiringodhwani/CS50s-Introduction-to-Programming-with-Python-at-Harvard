@@ -4,7 +4,7 @@ Week 6 was spent learning about **File IO**. Below are descriptions of each of t
   
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
   
-**scourgify.py**: Expects the user to provide two command-line arguments:  
+**scourgify.py**: Expects the user to provide two command-line arguments -   
   
 1. The name of an existing CSV file to read as input, whose columns are assumed to be, in order, name and house. Like the following:
   

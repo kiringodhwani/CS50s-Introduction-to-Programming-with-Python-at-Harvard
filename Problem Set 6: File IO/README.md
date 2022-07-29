@@ -1,4 +1,4 @@
-**Assignments from Week 6 of CS50's Introduction to Programming with Python at Harvard**
+**Assignments from Week 7 of CS50's Introduction to Programming with Python at Harvard**
 
 Week 6 was spent learning about **File I/O**. Below are descriptions of each of the programs in this folder:  
   

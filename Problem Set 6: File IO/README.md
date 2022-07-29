@@ -59,7 +59,7 @@ NOTE: The program exits via sys.exit:
    Special,$33.50,$47.95  
   
 Then, outputs the data from the input CSV as a table formatted as ASCII art using the 'tabulate' package. Below is the resulting output of the above pizza menu:
-
+  <pre>
    +------------------+---------+---------+  
    | Sicilian Pizza   | Small   | Large   |  
    +==================+=========+=========+  
@@ -73,7 +73,7 @@ Then, outputs the data from the input CSV as a table formatted as ASCII art usin
    +------------------+---------+---------+  
    | Special          | $33.50  | $47.95  |  
    +------------------+---------+---------+  
-
+  </pre>
 NOTE: If the user does not specify exactly one command-line argument, or if the specified file’s name does not end in .csv, or if the specified file does not exist, the program instead exits via sys.exit. j          k
   
 -----------------------------------------------------------------------------------------------------------------------------------------------------------

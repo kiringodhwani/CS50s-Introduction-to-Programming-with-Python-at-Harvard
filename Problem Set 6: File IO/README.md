@@ -77,3 +77,9 @@ Then, outputs the data from the input CSV as a table formatted as ASCII art usin
 NOTE: If the user does not specify exactly one command-line argument, or if the specified file’s name does not end in .csv, or if the specified file does not exist, the program instead exits via sys.exit. j          k
   
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
+  
+**lines.py**: Expects exactly one command-line argument other than the filename, the name (or path) of a Python file, and outputs the number of lines of code in that file, excluding comments and blank lines.  
+  
+NOTE: If the user does not specify exactly one command-line argument, or if the specified file’s name does not end in .py, or if the specified file does not exist, the program should instead exit via sys.exit.
+  
+NOTE: Assumes that any line that starts with #, optionally preceded by whitespace, is a comment. (A docstring should not be considered a comment.) Assumes that any line that only contains whitespace is blank.

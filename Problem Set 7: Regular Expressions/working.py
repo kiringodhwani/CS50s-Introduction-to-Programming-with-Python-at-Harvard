@@ -7,17 +7,18 @@ def main():
 # Convert() expects a string (s) in one of the following two 12-hour time formats: '9:00 AM to 5:00 PM' or '9 AM to 5 PM'
 def convert(s):
 
-    # The hour of any time in 12-hour format is between 1 and 12. This means that the first digit of the hour is between 0 and 9 and
+    # The hour of any time in 12-hour format is between 1 and 12. This means that the first digit of the user-inputted hour is between 0 and 9 and
     # the second digit (which is optional) is between 0 and 2.
     # The program allows users to input a time without minutes. Thus, for each inputted time, the ':' and number of minutes are optional.
     # Each time can be either AM or PM.
     # Capture the hour, minute, and time of day (AM or PM) values of both times.
     if matches := re.search(r'^([1-9][0-2]?):?([0-5][0-9])? (AM|PM) to ([1-9][0-2]?):?([0-5][0-9])? (AM|PM)$', s):
+            
         # To ensure the times are formatted in 12-hour time, make sure that both times have an hour between 1 and 12, inclusive.
         if int(matches.group(1)) > 12 or int(matches.group(4)) > 12:
             raise ValueError
 
-        # Convert both times to 24-hour format using the two_twenty_four() function.
+        # Convert both times to 24-hour format using the to_twenty_four() function.
         else:
             time1 = to_twenty_four(matches.group(1), matches.group(2), matches.group(3))
             time2 = to_twenty_four(matches.group(4), matches.group(5), matches.group(6))
@@ -31,7 +32,7 @@ def convert(s):
 def to_twenty_four(hour, minute, AMPM):
 
     # All times in PM, where the hour is not 12, must have 12 added to their hour to convert to 24-hour time.
-    # If the hour is 12, we do nothing, because 12 P.M = 12:00 in 24-hour format.
+    # If we are in PM and the hour is 12, we do nothing, because 12 P.M = 12:00 in 24-hour format.
     if AMPM == 'PM' and int(hour) != 12:
         hour = int(hour) + 12
 

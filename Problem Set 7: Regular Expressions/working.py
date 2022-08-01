@@ -4,7 +4,7 @@ import re
 def main():
     print(convert(input("Hours: ")))
 
-# Convert() expects a string (s) in one of the following two 12-hour time formats: '9:00 AM to 5:00 PM' or '9 AM to 5 PM'
+# Convert() expects a string (s) in one of the following 12-hour time formats: '9:00 AM to 5:00 PM' or '9 AM to 5 PM'
 def convert(s):
 
     # The hour of any time in 12-hour format is between 1 and 12. This means that the first digit of the user-inputted hour is between 0 and 9, and

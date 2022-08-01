@@ -36,7 +36,7 @@ def to_twenty_four(hour, minute, AMPM):
     if AMPM == 'PM' and int(hour) != 12:
         hour = int(hour) + 12
 
-    # 12 AM is equivalent to 0 in 24-hour time.
+    # 12 AM is equivalent to 0:00 in 24-hour time.
     if AMPM == 'AM' and int(hour) == 12:
         hour = 0
 

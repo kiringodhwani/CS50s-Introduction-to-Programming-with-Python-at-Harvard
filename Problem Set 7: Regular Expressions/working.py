@@ -11,7 +11,7 @@ def convert(s):
     # the second digit (which is optional) is between 0 and 2.
     # The program allows users to input a time without minutes. Thus, for each inputted time, the ':' and the number of minutes are optional.
     # Each time can be either AM or PM.
-    # Capture the hour, minute, and time of day (AM or PM) values of both times.
+    # Capture the hour, number of minutes, and time of day (AM or PM) of both user-inputted times.
     if matches := re.search(r'^([1-9][0-2]?):?([0-5][0-9])? (AM|PM) to ([1-9][0-2]?):?([0-5][0-9])? (AM|PM)$', s):
             
         # To ensure the times are formatted in 12-hour time, make sure that both times have an hour between 1 and 12, inclusive.

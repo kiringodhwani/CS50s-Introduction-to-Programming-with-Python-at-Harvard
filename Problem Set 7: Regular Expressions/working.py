@@ -14,7 +14,7 @@ def convert(s):
     # Capture the hour, number of minutes, and time of day (AM or PM) of both user-inputted times.
     if matches := re.search(r'^([1-9][0-2]?):?([0-5][0-9])? (AM|PM) to ([1-9][0-2]?):?([0-5][0-9])? (AM|PM)$', s):
             
-        # To ensure the times are formatted in 12-hour time, make sure that both times have an hour between 1 and 12, inclusive.
+        # To ensure the times are formatted in 12-hour time, make sure that neither time has an hour greater than 12.
         if int(matches.group(1)) > 12 or int(matches.group(4)) > 12:
             raise ValueError
 

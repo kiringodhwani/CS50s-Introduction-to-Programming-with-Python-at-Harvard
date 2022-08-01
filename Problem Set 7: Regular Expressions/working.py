@@ -7,7 +7,7 @@ def main():
 # Convert() expects a string (s) in one of the following two 12-hour time formats: '9:00 AM to 5:00 PM' or '9 AM to 5 PM'
 def convert(s):
 
-    # The hour of any time in 12-hour format is between 1 and 12. This means that the first digit of the user-inputted hour is between 0 and 9 and
+    # The hour of any time in 12-hour format is between 1 and 12. This means that the first digit of the user-inputted hour is between 0 and 9, and
     # the second digit (which is optional) is between 0 and 2.
     # The program allows users to input a time without minutes. Thus, for each inputted time, the ':' and number of minutes are optional.
     # Each time can be either AM or PM.

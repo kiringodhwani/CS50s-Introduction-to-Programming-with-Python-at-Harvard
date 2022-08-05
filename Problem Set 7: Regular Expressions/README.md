@@ -21,8 +21,8 @@ Then, returns the corresponding str in 24-hour format (i.e., 9:00 to 17:00). Exp
   
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
   
-**working.py**: 
+**numb3rs.py**: 
 
-**test_working.py**: Testing file consisting of  functions that collectively test the  function in   
+**test_numb3rs.py**: Testing file consisting of  functions that collectively test the  function in   
   
 -----------------------------------------------------------------------------------------------------------------------------------------------------------

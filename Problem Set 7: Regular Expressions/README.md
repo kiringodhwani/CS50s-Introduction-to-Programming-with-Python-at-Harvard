@@ -9,7 +9,7 @@ Week 7 was spent learning about **Regular Expressions**. Below are descriptions 
    9:00 AM to 5:00 PM  
    9 AM to 5 PM
 </pre>
-Then, outputs the corresponding str in 24-hour format (i.e., 9:00 to 17:00). Expects that AM and PM will be capitalized (with no periods therein) and that there will be a space before each. Raises a ValueError instead if the input is not in either of those formats or if either time is invalid (e.g., 12:60 AM, 13:00 PM, etc.). Does not assume that someone’s hours will start ante meridiem and end post meridiem; someone might work late and even long hours (e.g., 5:00 PM to 9:00 AM).  
+Then, outputs the corresponding time in 24-hour format (i.e., 9:00 to 17:00). Expects that AM and PM will be capitalized (with no periods therein) and that there will be a space before each. Raises a ValueError instead if the input is not in either of those formats or if either time is invalid (e.g., 12:60 AM, 13:00 PM, etc.). Does not assume that someone’s hours will start ante meridiem and end post meridiem; someone might work late and even long hours (e.g., 5:00 PM to 9:00 AM).  
   
 **test_working.py**: Testing file consisting of 6 functions that collectively test the convert() function in working.py. convert() is the function in working.py that expects a str in either of the above 12-hour formats and returns the corresponding str in 24-hour format (i.e., 9:00 to 17:00).  
   

@@ -40,4 +40,4 @@ See individual Problem Set folders for corresponding project READMEs / descripti
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
   
 **Problem Set 7: Regular Expressions**  
-   - See corresponding folder for 5 relevant projects and a README detailing the specifics of these projects. Note: 3 of the 5 projects have designated testing files in the folder.
+   - See corresponding folder for 5 relevant projects and a README detailing the specifics of these projects. NOTE: 3 of the 5 projects have designated testing files in the folder.

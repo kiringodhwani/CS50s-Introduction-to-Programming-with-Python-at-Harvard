@@ -4,7 +4,7 @@ Week 7 was spent learning about **Regular Expressions**. Below are descriptions 
   
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
   
-**working.py**: Expects a str as input in either of the following two 12-hour formats:  
+**working.py**: Prompts the user for a time in either of the following two 12-hour formats via input:  
 <pre>
    9:00 AM to 5:00 PM  
    9 AM to 5 PM
@@ -15,25 +15,29 @@ Then, outputs the corresponding str in 24-hour format (i.e., 9:00 to 17:00). Exp
   
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
   
-**um.py**: Expects a line of text as input as a str and returns, as an int, the number of times that “um” appears in that text, case-insensitively, as a word unto itself, not as a substring of some other word. For instance, given text like "hello, um, world", the function returns 1. Given text like "yummy", though, the function returns 0.  
+**um.py**: Prompts the user for input and outputs, as an int, the number of times that “um” appears in that text, case-insensitively, as a word unto itself, not as a substring of some other word. For instance, given text like "hello, um, world", the function returns 1. Given text like "yummy", though, the function returns 0.  
   
-**test_um.py**: Testing file consisting of 4 functions that collectively test the count() function in um.py count() is the function in um.py that that expects a line of text as input as a str and returns, as an int, the number of times that “um” appears in that text.
+**test_um.py**: Testing file consisting of 4 functions that collectively test the count() function in um.py. count() is the function in um.py that expects a line of text as input as a str and returns, as an int, the number of times that “um” appears in that text.
   
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
   
 **numb3rs.py**: An IPv4 address is a numeric identifier that a device (or, on TV, hacker) uses to communicate on the internet, akin to a postal address in the real world, typically formatted in dot-decimal notation as #.#.#.#. But each # should be a number between 0 and 255, inclusive.
   
-numb3rs.py expects an IPv4 address as input as a str and then returns True or False, respectively, if that input is a valid IPv4 address or not.
+numb3rs.py prompts the user for an IPv4 address via input and then outputs True or False, respectively, if that input is a valid IPv4 address or not.
   
 **test_numb3rs.py**: Testing file consisting of 2 functions that collectively test the validate() function in numb3rs.py. validate() is the function in numb3rs.py that expects an IPv4 address as input as a str and then returns True or False, respectively, if that input is a valid IPv4 address or not.  
   
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
   
-**watch.py**: Expects a str of HTML as input, extracts any YouTube URL that’s the value of a src attribute of an iframe element therein, and returns its shorter, shareable youtu.be equivalent as a str. Expects that any such URL will be in one of the formats below. Assumes that the value of src will be surrounded by double quotes. And assumes that the input will contain no more than one such URL. If the input does not contain any such URL at all, returns None.
+**watch.py**: Prompts the user for a str of HTML via input, extracts any YouTube URL that’s the value of a src attribute of an iframe element therein, and outputs its shorter, shareable youtu.be equivalent as a str. Expects that any such URL will be in one of the formats below. Assumes that the value of src will be surrounded by double quotes. And assumes that the input will contain no more than one such URL. If the input does not contain any such URL at all, returns None.
 <pre>
-http://youtube.com/embed/xvFZjo5PgG0
-https://youtube.com/embed/xvFZjo5PgG0
-https://www.youtube.com/embed/xvFZjo5PgG0
+http://youtube.com/embed/xvFZjo5PgG0  
+https://youtube.com/embed/xvFZjo5PgG0  
+https://www.youtube.com/embed/xvFZjo5PgG0  
 </pre>
+  
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+**response.py**: Prompts the user for an email address via input and then prints Valid or Invalid, respectively, if the input is a syntatically valid email address. Does not validate whether the email address’s domain name actually exists. Uses validator-collection from PyPI.  
   
 -----------------------------------------------------------------------------------------------------------------------------------------------------------

@@ -20,22 +20,22 @@ See individual Problem Set folders for corresponding project READMEs / descripti
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
   
 **Problem Set 3: Exceptions**  
-   - See corresponding folder for 5 relevant projects and a README detailing the specifics of these projects.  
+   - See corresponding folder for 4 relevant projects and a README detailing the specifics of these projects.  
   
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
   
 **Problem Set 4: APIs, Command Line, Dictionaries, Modules, Packages**  
-   - See corresponding folder for 5 relevant projects and a README detailing the specifics of these projects.  
+   - See corresponding folder for 6 relevant projects and a README detailing the specifics of these projects.  
   
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
   
 **Problem Set 5: Unit Tests**  
-   - See corresponding folder for 5 relevant projects and a README detailing the specifics of these projects. 
+   - See corresponding folder for 4 relevant projects (each with its own testing file) and a README detailing the specifics of these projects. 
   
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
   
 **Problem Set 6: File I/O**  
-   - See corresponding folder for 5 relevant projects and a README detailing the specifics of these projects.  
+   - See corresponding folder for 4 relevant projects and a README detailing the specifics of these projects.  
   
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
   

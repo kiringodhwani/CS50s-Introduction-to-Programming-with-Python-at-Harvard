@@ -21,8 +21,10 @@ Then, returns the corresponding str in 24-hour format (i.e., 9:00 to 17:00). Exp
   
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
   
-**numb3rs.py**: 
-
-**test_numb3rs.py**: Testing file consisting of  functions that collectively test the  function in   
+**numb3rs.py**: An IPv4 address is a numeric identifier that a device (or, on TV, hacker) uses to communicate on the internet, akin to a postal address in the real world, typically formatted in dot-decimal notation as #.#.#.#. But each # should be a number between 0 and 255, inclusive.
+  
+numb3rs.py expects an IPv4 address as input as a str and then returns True or False, respectively, if that input is a valid IPv4 address or not.
+  
+**test_numb3rs.py**: Testing file consisting of  functions that collectively test the validate() function in numb3rs.py
   
 -----------------------------------------------------------------------------------------------------------------------------------------------------------

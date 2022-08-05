@@ -25,6 +25,6 @@ Then, returns the corresponding str in 24-hour format (i.e., 9:00 to 17:00). Exp
   
 numb3rs.py expects an IPv4 address as input as a str and then returns True or False, respectively, if that input is a valid IPv4 address or not.
   
-**test_numb3rs.py**: Testing file consisting of  functions that collectively test the validate() function in numb3rs.py
+**test_numb3rs.py**: Testing file consisting of 2 functions that collectively test the validate() function in numb3rs.py. validate() is the function in numb3rs.py that expects an IPv4 address as input as a str and then returns True or False, respectively, if that input is a valid IPv4 address or not.  
   
 -----------------------------------------------------------------------------------------------------------------------------------------------------------

@@ -28,3 +28,12 @@ numb3rs.py expects an IPv4 address as input as a str and then returns True or Fa
 **test_numb3rs.py**: Testing file consisting of 2 functions that collectively test the validate() function in numb3rs.py. validate() is the function in numb3rs.py that expects an IPv4 address as input as a str and then returns True or False, respectively, if that input is a valid IPv4 address or not.  
   
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
+  
+**watch.py**: Expects a str of HTML as input, extracts any YouTube URL that’s the value of a src attribute of an iframe element therein, and returns its shorter, shareable youtu.be equivalent as a str. Expects that any such URL will be in one of the formats below. Assumes that the value of src will be surrounded by double quotes. And assumes that the input will contain no more than one such URL. If the input does not contain any such URL at all, returns None.
+<pre>
+http://youtube.com/embed/xvFZjo5PgG0
+https://youtube.com/embed/xvFZjo5PgG0
+https://www.youtube.com/embed/xvFZjo5PgG0
+</pre>
+  
+-----------------------------------------------------------------------------------------------------------------------------------------------------------

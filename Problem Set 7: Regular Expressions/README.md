@@ -17,4 +17,4 @@ Then, returns the corresponding str in 24-hour format (i.e., 9:00 to 17:00). Exp
   
 **um.py**: Expects a line of text as input as a str and returns, as an int, the number of times that “um” appears in that text, case-insensitively, as a word unto itself, not as a substring of some other word. For instance, given text like hello, um, world, the function returns 1. Given text like yummy, though, the function returns 0.  
   
-**test_um.py**: Testing file consisting of 5 functions that collectively test the count() function in um.py
+**test_um.py**: Testing file consisting of 4 functions that collectively test the count() function in um.py

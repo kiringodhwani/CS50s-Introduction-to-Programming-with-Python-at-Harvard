@@ -49,7 +49,7 @@ def user_input(dob):
         d = int(d)
 
         # Create a date object.
-        # Raises a ValueError if the year, month, or day arguments are invalid. (e.g. month is less than 1 or greater than 12).
+        # Raises a ValueError if the year, month, or day arguments are invalid (e.g. month is less than 1 or greater than 12).
         birthdate = date(yr, m, d)
 
     except ValueError:

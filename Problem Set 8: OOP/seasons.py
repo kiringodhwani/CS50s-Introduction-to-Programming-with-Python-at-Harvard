@@ -11,23 +11,21 @@ def main():
     # Use the user_input() function to validate the user-inputted birthdate and convert it to a date object.
     birthdate = user_input(dob)
 
-    # Use the find_difference() to calculate the minute difference between the birthdate and today's date. find_difference()
-    # also formats the output to be printed to the user.
+    # Use the find_difference() function to calculate the minute difference between the birthdate and today's date. find_difference() also
+    # formats this minutes value into a string to be printed to the user.
     to_print = find_difference(birthdate)
     print(to_print)
 
-# Takes in a date object, calculates the difference in minutes between said date and today's date, and formats said difference in
-# minutes like the following: 12345 --> "one thousand, two hundred thirty-four minutes". Then returns the formatted string.
+# Takes in a date (in the form of a date object), calculates the difference in minutes between said date and today's date, and then formats said
+# difference in minutes like the following: 12345 --> "one thousand, two hundred thirty-four minutes". Lastly, returns the formatted string.
 def find_difference(birthdate):
-    # Get today's date
+    # Get today's date.
     today = date.today()
 
-    # Calculate the difference in the two dates.
+    # Calculate the difference between today's date and the birthdate.
     difference = today - birthdate
 
-    # The difference returned is in days, so we must convert to seconds.
-    # Note: The program assumes the user was born at midnight and it is midnight on the current day so we do not worry about second of
-    # minute difference (only day difference).
+    # The difference is initially in days, so we must convert it to minutes.
     seconds = difference.days * 24 * 60
 
     # Use the inflect module to format the output (i.e. 12345 --> "one thousand, two hundred thirty-four") and also capitalize the output.

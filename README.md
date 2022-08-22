@@ -41,3 +41,9 @@ See individual Problem Set folders for corresponding project READMEs / descripti
   
 **Problem Set 7: Regular Expressions**  
    - See corresponding folder for 5 relevant projects and a README detailing the specifics of these projects. 3 of the 5 projects have designated testing files in the folder. 
+    
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  
+**Problem Set 8: Object-Oriented Programming**  
+   - See corresponding folder for 3 relevant projects and a README detailing the specifics of these projects. 2 of the 3 projects have designated testing files in the folder. 
+ 
